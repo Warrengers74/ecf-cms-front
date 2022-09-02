@@ -1,0 +1,141 @@
+.codegear--theme-dashboard .codegear-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin: 0 0 20px -20px;
+    padding: 0px 20px;
+}
+
+.codegear--theme-dashboard .codegear-header .codegear-branding{
+    padding: 10px 20px 10px 0;
+    border-right: 1px solid #F0F0F1;
+}
+
+.codegear--theme-dashboard .codegear-header .codegear--documentation-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.codegear--theme-dashboard .section--hero-image{
+    background: #FFFFFF;
+    display: flex;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.codegear--theme-dashboard .section--hero-image .hero-content{
+    padding: 20px;
+}
+
+.codegear--theme-dashboard .section--hero-image .hero--user-welcome{
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #1E1E1E;
+}
+
+.codegear--theme-dashboard .section--hero-image .hero-title{
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #1E1E1E;
+}
+
+.codegear--theme-dashboard .section--hero-image .badge{
+    transform: translateY(-10px);
+    font-weight: normal;
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.codegear--theme-dashboard .section--hero-image .badge-success{
+    background: #DEF3ED;
+    color: #3FB28F;
+}
+
+.codegear--theme-dashboard .section--hero-image .hero-description{
+    margin-top: 15px;
+    color: #1E1E1E;
+}
+
+.codegear--theme-dashboard .section--hero-image .hero-actions{
+    position: relative;
+    margin-top: 30px;
+}
+
+.codegear--theme-dashboard .button,
+.codegear--theme-dashboard .section--hero-image .hero-actions .button{
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    min-width: 120px;
+    text-align: center;
+}
+
+.codegear--theme-dashboard .main-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.codegear--theme-dashboard .main-content .primary{
+    flex: 1 0 calc(100% - 296px);
+    max-width: calc(100% - 296px);
+    width: 100%;
+    margin-right: 20px;
+}
+
+.codegear--theme-dashboard .main-content .aside{
+    flex: 1 0 276px;
+    max-width:276px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.codegear--theme-dashboard .main-content .panel{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin-top: 25px;
+}
+
+.codegear--theme-dashboard .main-content .panel-head{
+    padding: 15px 20px;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+.codegear--theme-dashboard .main-content .panel-head h3{
+    font-size: 0.8125rem;
+    margin: 0;
+}
+
+.codegear--theme-dashboard .main-content .panel-content {
+    height: 100%;
+    padding: 20px;
+}
+
+.codegear--theme-dashboard .main-content .panel-content .description{
+    margin-top: 15px;
+}
+
+.codegear--theme-dashboard .main-content .panel-content .action-button{
+    margin-top: 30px;
+}
+
+.codegear--theme-dashboard .main-content .panel-content .divider{
+    background: #F0F0F1;
+    width: calc(100% + 48px);
+    height: 1px;
+    margin: 20px -24px;
+}
